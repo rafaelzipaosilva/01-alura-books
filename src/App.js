@@ -1,6 +1,7 @@
-import '../componentes/Header/index';
-import Pesquisa from '../componentes/Pesquisa';
-import UltimosLancamentos from '../componentes/UltimosLancamentos';
+import './componentes/Header/index';
+import Header from './componentes/Header';
+import Pesquisa from './componentes/Pesquisa';
+import UltimosLancamentos from './componentes/UltimosLancamentos';
 import styled from 'styled-components';
 
 const AppContainter = styled.div`
@@ -10,12 +11,13 @@ const AppContainter = styled.div`
 
 `
 
-function Favoritos() {
+function App() {
   return (
     <AppContainter>
+      <Header />
       <Pesquisa />
     </AppContainter>  
   );
 }
 
-export default Favoritos;
+export default App;
