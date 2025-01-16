@@ -5,6 +5,8 @@ Primeira versão do projeto Alura Books
 **Curso:** React: comece seu projeto full stack
 
 ## Comandos
-npm install react-router-dom
-
 npm run start //iniciar a página
+
+npm install react-router-dom //instala o React Router DOM (responsável por fazer as rotas)
+
+npm install axios //instala o Axios (responsável por fazer requisições HTTP)
