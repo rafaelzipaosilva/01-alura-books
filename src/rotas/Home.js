@@ -1,6 +1,7 @@
-import '../componentes/Header/index';
-import Pesquisa from '../componentes/Pesquisa';
-import UltimosLancamentos from '../componentes/UltimosLancamentos';
+import './componentes/Header/index';
+import Header from './componentes/Header';
+import Pesquisa from './componentes/Pesquisa';
+import UltimosLancamentos from './componentes/UltimosLancamentos';
 import styled from 'styled-components';
 
 const AppContainter = styled.div`
@@ -14,7 +15,6 @@ function Home() {
   return (
     <AppContainter>
       <Pesquisa />
-      <UltimosLancamentos />
     </AppContainter>  
   );
 }
